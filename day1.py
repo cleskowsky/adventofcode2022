@@ -10,4 +10,5 @@ def ints(s):
 elves = [ints(x) for x in a.split("\n\n")]
 print(elves)
 
+# part 1
 print(max(sum(elf) for elf in elves))
